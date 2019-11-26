@@ -40,7 +40,7 @@ function App() {
       <div className="App">
         <AppBar position="static">
           <Toolbar>
-            <Tabs value={value} onChange={handleChange} aria-label="navbar tabs">
+            <Tabs value={value} onChange={handleChange} aria-label="navbar tabs" variant="scrollable" scrollButtons="auto">
               <Tab label="Home" component={Link} to="/" {...a11yProps(0)}/>
               <Tab label="Race Calendar" component={Link} to="/calendar" {...a11yProps(1)}/>
               <Tab label="Driver Lineup" component={Link} to="/lineup" {...a11yProps(2)}/>
