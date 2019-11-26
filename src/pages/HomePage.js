@@ -23,8 +23,8 @@ const HomePage = ({ value }) => {
     <TabPanel index={0}>
       <Container maxWidth='lg'>
         <Grid container spacing={3}>
-          <Grid item lg={9}>
-            <Paper className={classes.paper}>lg=6</Paper>
+          <Grid item xs={9}>
+            <Paper className={classes.paper}>xs=9</Paper>
           </Grid>
           <Grid item lg={3}>
           <TwitterTimelineEmbed
