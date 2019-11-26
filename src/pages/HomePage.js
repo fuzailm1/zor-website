@@ -18,6 +18,12 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.text.secondary,
     margin: theme.spacing(1),
   },
+  aboutus: {
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    margin: theme.spacing(19),
+  }
 }));
 
 const HomePage = ({ value }) => {
@@ -33,8 +39,7 @@ const HomePage = ({ value }) => {
                   <h1>Upcoming Race</h1>
                 </Box>
               </Typography>
-              <img height="98%" width="85%" algin="middle" src={Logo}>
-              </img>
+              <img height="80%" width="80%" algin="middle" src={Logo} />
             </div>
           </Grid>
           <Grid item lg={2}>
@@ -55,7 +60,7 @@ const HomePage = ({ value }) => {
           </Grid>
         </Grid>
         <div align="center">
-          <Typography className={classes.paper}>
+          <Typography className={classes.aboutus}>
             <Box fontWeight="bold">
               <h1>About Us</h1>
             </Box>
