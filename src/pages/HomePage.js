@@ -18,12 +18,6 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.text.secondary,
     margin: theme.spacing(1),
   },
-  aboutus: {
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-    margin: theme.spacing(19),
-  }
 }));
 
 const HomePage = ({ value }) => {
@@ -60,7 +54,7 @@ const HomePage = ({ value }) => {
           </Grid>
         </Grid>
         <div align="center">
-          <Typography className={classes.aboutus}>
+          <Typography className={classes.paper}>
             <Box fontWeight="bold">
               <h1>About Us</h1>
             </Box>
