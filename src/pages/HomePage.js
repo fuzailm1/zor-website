@@ -16,10 +16,10 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    margin: theme.spacing(2),
+    margin: theme.spacing(1),
   },
 }));
 
@@ -30,28 +30,35 @@ const HomePage = ({ value }) => {
       <div>
         <Grid container spacing={0}>
           <Grid item xs={10}>
-            <Paper className={classes.paper}>
-              <Typography>
+            <div align="center">
+              <Typography className={classes.paper}>
                 <Box fontWeight="bold">
                   <h1>Upcoming Race</h1>
                 </Box>
               </Typography>
-              <img height="98%" width="85%" src={Logo}>
+              <img height="98%" width="85%" algin="middle" src={Logo}>
               </img>
-            </Paper>
+            </div>
           </Grid>
           <Grid item lg={2}>
-          <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="zenithonlinef1"
-            placeholder="Loading"
-            options={{height: 500}}
-          />
-          <TwitterFollowButton screenName="zenithonlineF1" options={{size: 'large'}} />
+            <div align="center">
+              <Typography className={classes.paper}>
+                <Box fontWeight="bold">
+                  <h3>Follow us on Twitter!</h3>
+                </Box>
+              </Typography>
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="zenithonlinef1"
+                placeholder="Loading"
+                options={{height: 500}}
+              />
+              <TwitterFollowButton screenName="zenithonlineF1" options={{size: 'large'}} />
+            </div>
           </Grid>
         </Grid>
-        <Paper className={classes.paper}>
-          <Typography>
+        <div align="center">
+          <Typography className={classes.paper}>
             <Box fontWeight="bold">
               <h1>About Us</h1>
             </Box>
@@ -60,7 +67,7 @@ const HomePage = ({ value }) => {
               We currently run two divisions, one on Mondays and one on Thursdays at 8pm EST. 
             </Typography>
           </Typography>
-        </Paper>
+        </div>
           <Typography className={classes.paper}>
             <Box fontWeight="bold">
               <h1>Community Photos</h1>
