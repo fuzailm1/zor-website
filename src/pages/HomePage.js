@@ -16,10 +16,10 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    margin: theme.spacing(3),
+    margin: theme.spacing(2),
   },
 }));
 
@@ -27,20 +27,20 @@ const HomePage = ({ value }) => {
   const classes = useStyles();
   return (
     <TabPanel index={0}>
-      <Container maxWidth='lg'>
-        <Grid container spacing={3}>
-          <Grid item xs={9}>
+      <div>
+        <Grid container spacing={0}>
+          <Grid item xs={10}>
             <Paper className={classes.paper}>
               <Typography>
                 <Box fontWeight="bold">
                   <h1>Upcoming Race</h1>
                 </Box>
               </Typography>
-              <img height="100%" width="100%" src={Logo}>
+              <img height="95%" width="95%" src={Logo}>
               </img>
             </Paper>
           </Grid>
-          <Grid item lg={3}>
+          <Grid item lg={2}>
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="zenithonlinef1"
@@ -85,8 +85,7 @@ const HomePage = ({ value }) => {
             </div>
           </Slider>
         </Paper>
-        
-      </Container>
+      </div>
     </TabPanel>
   )
 };
