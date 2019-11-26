@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import { Typography } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
-import Slider from 'infinite-react-carousel';
+import Carousel from "nuka-carousel";
 import Logo from '../assets/Race Preview v2.jpg';
 
 
@@ -73,23 +73,23 @@ const HomePage = ({ value }) => {
               <h1>Community Photos</h1>
             </Box>
           </Typography>
-          {/* <Slider dots autoplay centerMode={true}>
-            <div align="center">
-              <img height="90%" width="90%" display="block" src='https://cdn.discordapp.com/attachments/542341637557321758/646907706833240077/PS_Messages_20191120_215924.jpg' />
-            </div>
-            <div  align="center">
+          <Carousel wrapAround>
+            {/* <div> */}
+              <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/646907706833240077/PS_Messages_20191120_215924.jpg' />
+            {/* </div>
+            <div > */}
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/646907842879684618/PS_Messages_20191120_215914.jpg' />
-            </div>
-            <div  align="center">
+            {/* </div>
+            <div> */}
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/647265234058477568/PS_Messages_20191121_214024.jpg' />
-            </div>
-            <div  align="center">
-              <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/637397632171376670/648913360733208576/77206844_561535231086267_5783543818685795211_n.jpg' />
-            </div>
-            <div  align="center">
+            {/* </div>
+            <div> */}
+              {/* <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/637397632171376670/648913360733208576/77206844_561535231086267_5783543818685795211_n.jpg' /> */}
+            {/* </div>
+            <div > */}
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/643648806151389184/PS_Messages_20191111_221016.jpg' />
-            </div>
-          </Slider> */}
+            {/* </div> */}
+          </Carousel>
       </div>
     </TabPanel>
   )
