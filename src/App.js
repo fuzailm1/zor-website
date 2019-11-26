@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import Container from '@material-ui/core/Container';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 import {routeConfig} from './Routes';
 import NotFound from './pages/errors/NotFound';
@@ -40,15 +41,17 @@ function App() {
       <div className="App">
         <AppBar position="static">
           <Toolbar>
-            <Tabs value={value} onChange={handleChange} aria-label="navbar tabs" variant="scrollable" scrollButtons="auto">
-              <Tab label="Home" component={Link} to="/" {...a11yProps(0)}/>
-              <Tab label="Race Calendar" component={Link} to="/calendar" {...a11yProps(1)}/>
-              <Tab label="Driver Lineup" component={Link} to="/lineup" {...a11yProps(2)}/>
-              <Tab label="Race Highlights" component={Link} to="/highlights" {...a11yProps(3)}/>
-              <Tab label="Hall of Fame" component={Link} to="/hall_of_fame" {...a11yProps(4)}/>
-              <Tab label="Blog" component={Link} to="/blog" {...a11yProps(5)}/>
-              <Tab label="Signup" component={Link} to="/signup" {...a11yProps(6)}/>
-            </Tabs>
+            <Container>
+              <Tabs value={value} onChange={handleChange} aria-label="navbar tabs" variant="scrollable" scrollButtons="auto">
+                <Tab label="Home" component={Link} to="/" {...a11yProps(0)}/>
+                <Tab label="Race Calendar" component={Link} to="/calendar" {...a11yProps(1)}/>
+                <Tab label="Driver Lineup" component={Link} to="/lineup" {...a11yProps(2)}/>
+                <Tab label="Race Highlights" component={Link} to="/highlights" {...a11yProps(3)}/>
+                <Tab label="Hall of Fame" component={Link} to="/hall_of_fame" {...a11yProps(4)}/>
+                <Tab label="Blog" component={Link} to="/blog" {...a11yProps(5)}/>
+                <Tab label="Signup" component={Link} to="/signup" {...a11yProps(6)}/>
+              </Tabs>
+            </Container>
           </Toolbar>
         </AppBar>
         <Switch>
