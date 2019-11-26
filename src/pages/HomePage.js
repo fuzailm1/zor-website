@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
     margin: theme.spacing(2),
@@ -36,7 +36,7 @@ const HomePage = ({ value }) => {
                   <h1>Upcoming Race</h1>
                 </Box>
               </Typography>
-              <img height="95%" width="95%" src={Logo}>
+              <img height="98%" width="85%" src={Logo}>
               </img>
             </Paper>
           </Grid>
@@ -61,30 +61,28 @@ const HomePage = ({ value }) => {
             </Typography>
           </Typography>
         </Paper>
-        <Paper className={classes.paper}>
-          <Typography>
+          <Typography className={classes.paper}>
             <Box fontWeight="bold">
               <h1>Community Photos</h1>
             </Box>
           </Typography>
-          <Slider dots autoplay centerMode>
-            <div>
-              <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/646907706833240077/PS_Messages_20191120_215924.jpg' />
+          <Slider dots autoplay centerMode={true}>
+            <div align="center">
+              <img height="90%" width="90%" display="block" src='https://cdn.discordapp.com/attachments/542341637557321758/646907706833240077/PS_Messages_20191120_215924.jpg' />
             </div>
-            <div>
+            <div  align="center">
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/646907842879684618/PS_Messages_20191120_215914.jpg' />
             </div>
-            <div>
+            <div  align="center">
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/647265234058477568/PS_Messages_20191121_214024.jpg' />
             </div>
-            <div>
+            <div  align="center">
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/637397632171376670/648913360733208576/77206844_561535231086267_5783543818685795211_n.jpg' />
             </div>
-            <div>
+            <div  align="center">
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/643648806151389184/PS_Messages_20191111_221016.jpg' />
             </div>
           </Slider>
-        </Paper>
       </div>
     </TabPanel>
   )
