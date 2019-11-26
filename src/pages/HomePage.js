@@ -73,7 +73,7 @@ const HomePage = ({ value }) => {
               <h1>Community Photos</h1>
             </Box>
           </Typography>
-          <Slider dots autoplay centerMode={true}>
+          {/* <Slider dots autoplay centerMode={true}>
             <div align="center">
               <img height="90%" width="90%" display="block" src='https://cdn.discordapp.com/attachments/542341637557321758/646907706833240077/PS_Messages_20191120_215924.jpg' />
             </div>
@@ -89,7 +89,7 @@ const HomePage = ({ value }) => {
             <div  align="center">
               <img height="90%" width="90%" src='https://cdn.discordapp.com/attachments/542341637557321758/643648806151389184/PS_Messages_20191111_221016.jpg' />
             </div>
-          </Slider>
+          </Slider> */}
       </div>
     </TabPanel>
   )
