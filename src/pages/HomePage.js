@@ -7,6 +7,8 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import { Typography } from '@material-ui/core';
 import Box from '@material-ui/core/Box';
+import Logo from '../assets/Race Preview v2.jpg';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -16,6 +18,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    margin: theme.spacing(3),
   },
 }));
 
@@ -29,13 +32,11 @@ const HomePage = ({ value }) => {
             <Paper className={classes.paper}>
               <Typography>
                 <Box fontWeight="bold">
-                  <h1>About Us</h1>
+                  <h1>Upcoming Race</h1>
                 </Box>
-                <Typography variant="h6">
-                  Welcome to Zenith Online Racing. We are a small community of league racers on Formula 1 2019 across North America and Europe.
-                  We currently run two divisions, one on Mondays and one on Thursdays at 8pm EST. 
-                </Typography>
               </Typography>
+              <img height="100%" width="100%" src={Logo}>
+              </img>
             </Paper>
           </Grid>
           <Grid item lg={3}>
@@ -48,6 +49,17 @@ const HomePage = ({ value }) => {
           <TwitterFollowButton screenName="zenithonlineF1" options={{size: 'large'}} />
           </Grid>
         </Grid>
+        <Paper className={classes.paper}>
+            <Typography>
+              <Box fontWeight="bold">
+                <h1>About Us</h1>
+              </Box>
+              <Typography variant="h6">
+                Welcome to Zenith Online Racing. We are a small community of league racers on Formula 1 2019 across North America and Europe.
+                We currently run two divisions, one on Mondays and one on Thursdays at 8pm EST. 
+              </Typography>
+            </Typography>
+          </Paper>
       </Container>
     </TabPanel>
   )
