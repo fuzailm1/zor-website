@@ -23,10 +23,10 @@ const HomePage = ({ value }) => {
     <TabPanel index={0}>
       <Container maxWidth='lg'>
         <Grid container spacing={3}>
-          <Grid item xs={9}>
-            <Paper className={classes.paper}>xs=6</Paper>
+          <Grid item lg={9}>
+            <Paper className={classes.paper}>lg=6</Paper>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item lg={3}>
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="zenithonlinef1"
