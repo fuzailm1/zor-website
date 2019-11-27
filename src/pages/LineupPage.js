@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
 const LineupPage = () => {
     const classes = useStyles();
     return (
-        <TabPanel index={2}>
+        <TabPanel index={3}>
           <Paper className={classes.paper}>
             <Typography className={classes.paper}>
                 <h1>Tier 1 Roster</h1>

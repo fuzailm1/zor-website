@@ -3,7 +3,7 @@ import TabPanel from '../components/TabPanel';
 
 const HallOfFamePage = () => {
     return (
-        <TabPanel index={4}>
+        <TabPanel index={5}>
           Hall of Fame
         </TabPanel>
       )

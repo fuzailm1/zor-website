@@ -1,12 +1,13 @@
 import React from 'react';
 import TabPanel from '../components/TabPanel';
 
-const SignupPage = () => {
+const StandingsPage = () => {
+
     return (
-        <TabPanel index={7}>
-          Signup
+        <TabPanel index={1}>
+          Standings
         </TabPanel>
       )
 };
 
-export default SignupPage;
+export default StandingsPage;

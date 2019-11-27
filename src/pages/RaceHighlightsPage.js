@@ -3,7 +3,7 @@ import TabPanel from '../components/TabPanel';
 
 const RaceHighlightsPage = () => {
     return (
-        <TabPanel index={3}>
+        <TabPanel index={4}>
           Race Highlights
           <iframe 
             width="560" 
