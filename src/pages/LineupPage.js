@@ -14,7 +14,6 @@ const useStyles = makeStyles(theme => ({
         textAlign: 'center',
         color: theme.palette.text.secondary,
         margin: theme.spacing(0),
-        elevation: 24,
     },
     name: {
         textAlign: 'center',
@@ -24,7 +23,7 @@ const useStyles = makeStyles(theme => ({
         padding: theme.spacing(0),
         textAlign: 'center',
         color: theme.palette.text.secondary,
-        margin: theme.spacing(2),
+        margin: theme.spacing(0),
     },
     tabs: {
         justifyContent: 'center',
@@ -79,14 +78,14 @@ const LineupPage = () => {
                 <Typography className={classes.paper}>
                     <h1>Tier 1 Lineup</h1>
                 </Typography>
-                <Grid container className={classes.grids}>
-                    <Grid item xs={6} zeroMinWidth>
+                <Grid container wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
+                    <Grid item xs={6}>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
                     <Typography className={classes.paper}>
                         <h3>fuzailm1</h3>
                     </Typography>
                     </Grid>
-                    <Grid item xs={6} zeroMinWidth>
+                    <Grid item xs={6}>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
                     <Typography className={classes.paper}>
                         <h3>RC7_NI</h3>
@@ -94,8 +93,8 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
-                    <Grid item xs={6} zeroMinWidth>
+                <Grid container className={classes.grids} wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
+                    <Grid item xs={6}>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
                     <Typography className={classes.paper}>
                         <h3>PuffDigital</h3>
@@ -109,7 +108,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids} wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
                     <Typography className={classes.paper}>
@@ -124,7 +123,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids} wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
                     <Typography className={classes.paper}>
@@ -139,7 +138,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids} wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
                     <Typography className={classes.paper}>
@@ -154,7 +153,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids} wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
                     <Typography className={classes.paper}>
@@ -169,7 +168,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
                     <Typography className={classes.paper}>
@@ -184,7 +183,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
                     <Typography className={classes.paper}>
@@ -199,7 +198,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
                     <Typography className={classes.paper}>
@@ -214,7 +213,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
                     <Typography className={classes.paper}>
@@ -233,7 +232,7 @@ const LineupPage = () => {
                 <Typography className={classes.paper}>
                     <h1>Tier 2 Lineup</h1>
                 </Typography>
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
                     <Typography className={classes.paper}>
@@ -248,7 +247,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
                     <Typography className={classes.paper}>
@@ -263,7 +262,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
                     <Typography className={classes.paper}>
@@ -278,7 +277,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
                     <Typography className={classes.paper}>
@@ -293,7 +292,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
                     <Typography className={classes.paper}>
@@ -308,7 +307,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
                     <Typography className={classes.paper}>
@@ -323,7 +322,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
                     <Typography className={classes.paper}>
@@ -338,7 +337,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
                     <Typography className={classes.paper}>
@@ -353,7 +352,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
                     <Typography className={classes.paper}>
@@ -368,7 +367,7 @@ const LineupPage = () => {
                     </Grid>
                 </Grid>
 
-                <Grid container className={classes.grids}>
+                <Grid container className={classes.grids}  wrap="nowrap" className={classes.grids} alignItems="center" alignContent="center">
                     <Grid item xs={6} zeroMinWidth>
                     <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
                     <Typography className={classes.paper}>
