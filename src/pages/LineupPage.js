@@ -1,35 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { Typography, Container } from '@material-ui/core';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from "@material-ui/core/Tab";
 import Box from '@material-ui/core/Box';
 import TabPanel from '../components/TabPanel';
-
-const useStyles = makeStyles(theme => ({
-    paper: {
-        padding: theme.spacing(0),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-        margin: theme.spacing(0),
-    },
-    name: {
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-      },
-    grids: {
-        padding: theme.spacing(0),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-        margin: theme.spacing(0),
-    },
-    tabs: {
-        justifyContent: 'center',
-        alignItems: 'center',
-    }
-  }));
+import { useStyles } from '../components/Styles';
 
   function InnerTabPanel(props) {
     const { children, value, index, ...other } = props;
