@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import TabPanel from '../components/TabPanel';
 import { useStyles } from '../components/Styles';
 
@@ -13,38 +13,33 @@ const RaceHighlightsPage = () => {
                 <h1>Race Highlights and Streams</h1>
             </Typography>
             <Typography className={classes.paper}>
-                <h4>ZOR Social - Mexico</h4>
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/0v0VmQoneSA" 
-                    frameborder="10" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
+                <h4>
+                    ZOR Season 2 - Belgium
+                </h4>
             </Typography>
-            <Typography className={classes.paper}>
-                <h4>ZOR Season 2 - Japan</h4>
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/icY1tbK9C7g" 
-                    frameborder="10" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
-            </Typography>
-            <Typography className={classes.paper}>
-                <h4>ZOR Season 2 - Belgium</h4>
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/EJUfw9upikI" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>
-            </Typography>
+            <div style={{
+                    width: "100%", 
+                    maxWidth: "100%", 
+                    display: "flex", 
+                    flexWrap: "wrap", 
+                    justifyContent: "center", 
+                    alignItems: "center"
+                }}>
+                    <iframe
+                        style={{
+                            position: "relative",
+                            top: 0,
+                            left: 0,
+                            width: "60vw",
+                            height: "68vh",
+                            maxWidth: "100%",
+                            maxHeight: "80%"
+                        }}
+                        src={`https://www.youtube.com/embed/EJUfw9upikI`}
+                        frameBorder="10"
+                    />
+                </div>
+                
         </TabPanel>
       )
 };

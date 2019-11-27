@@ -20,6 +20,23 @@ export const useStyles = makeStyles(theme => ({
     tabs: {
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    iframe: {
+        display: 'block',
+        width: '100%',
+    },
+    videoWrapper: {
+        position: 'relative',
+        paddingBottom: '56.25%', 
+        paddingBop: '25px',
+        height: 0,
+    },
+    videoWrapperiFrame: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
     }
   }));
 
