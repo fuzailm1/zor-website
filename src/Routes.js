@@ -6,6 +6,7 @@ import HallOfFamePage from './pages/HallOfFamePage';
 import SignupPage from './pages/SignupPage';
 import RaceHighlightsPage from './pages/RaceHighlightsPage';
 import BlogPage from './pages/BlogPage';
+import StandingsPage from './pages/StandingsPage';
 
 export const routeConfig = [
   {
@@ -13,6 +14,12 @@ export const routeConfig = [
     key: 'index',
     route: '/',
     component: HomePage
+  },
+  {
+    display: 'Standings',
+    key: 'standings',
+    route: '/standings',
+    component: StandingsPage
   },
   {
     display: 'Race Calendar',

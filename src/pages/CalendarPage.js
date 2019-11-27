@@ -4,7 +4,7 @@ import TabPanel from '../components/TabPanel';
 const CalendarPage = () => {
 
     return (
-        <TabPanel index={1}>
+        <TabPanel index={2}>
           Race Calendar
         </TabPanel>
       )
