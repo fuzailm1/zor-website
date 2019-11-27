@@ -76,316 +76,312 @@ const LineupPage = () => {
                 <Tab label="Tier 2 Lineup" {...a11yProps(1)}/>
             </Tabs>
             <InnerTabPanel value={value} index={0}>
-                <Container maxwidth="xl">
+                <Typography className={classes.paper}>
+                    <h1>Tier 1 Lineup</h1>
+                </Typography>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
                     <Typography className={classes.paper}>
-                        <h1>Tier 1 Lineup</h1>
+                        <h3>fuzailm1</h3>
                     </Typography>
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
-                        <Typography className={classes.paper}>
-                            <h3>fuzailm1</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
-                        <Typography className={classes.paper}>
-                            <h3>RC7_NI</h3>
-                        </Typography>
-                        </Grid>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
+                    <Typography className={classes.paper}>
+                        <h3>RC7_NI</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>PuffDigital</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>arebigga</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>PuffDigital</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>arebigga</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
-                        <Typography className={classes.paper}>
-                            <h3>GruesomeCar</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
-                        <Typography className={classes.paper}>
-                            <h3>XRyanXDXD</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
+                    <Typography className={classes.paper}>
+                        <h3>GruesomeCar</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
+                    <Typography className={classes.paper}>
+                        <h3>XRyanXDXD</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Doth_Thou_Hoist</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
-                        <Typography className={classes.paper}>
-                            <h3>dzeig00</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Doth_Thou_Hoist</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
+                    <Typography className={classes.paper}>
+                        <h3>dzeig00</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Stig_MX5</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
-                        <Typography className={classes.paper}>
-                            <h3>BrentCrystals</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Stig_MX5</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
+                    <Typography className={classes.paper}>
+                        <h3>BrentCrystals</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Zemoglis</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
-                        <Typography className={classes.paper}>
-                            <h3>--</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Zemoglis</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
+                    <Typography className={classes.paper}>
+                        <h3>--</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
-                        <Typography className={classes.paper}>
-                            <h3>ZoinksZazzoo</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
-                        <Typography className={classes.paper}>
-                            <h3>iamsix</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
+                    <Typography className={classes.paper}>
+                        <h3>ZoinksZazzoo</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
+                    <Typography className={classes.paper}>
+                        <h3>iamsix</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Sam_M226</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
-                        <Typography className={classes.paper}>
-                            <h3>JoshJosherson206</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Sam_M226</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
+                    <Typography className={classes.paper}>
+                        <h3>JoshJosherson206</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>PrinceAli89</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>SirHarryHotspur</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>PrinceAli89</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>SirHarryHotspur</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
-                        <Typography className={classes.paper}>
-                            <h3>JMurMario</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
-                        <Typography className={classes.paper}>
-                            <h3>--</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
+                    <Typography className={classes.paper}>
+                        <h3>JMurMario</h3>
+                    </Typography>
                     </Grid>
-                </Container>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
+                    <Typography className={classes.paper}>
+                        <h3>--</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
             </InnerTabPanel>
             <InnerTabPanel value={value} index={1}>
-                <Container maxwidth="xl">
+                <Typography className={classes.paper}>
+                    <h1>Tier 2 Lineup</h1>
+                </Typography>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
                     <Typography className={classes.paper}>
-                        <h1>Tier 2 Lineup</h1>
+                        <h3>iamsix</h3>
                     </Typography>
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
-                        <Typography className={classes.paper}>
-                            <h3>iamsix</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
-                        <Typography className={classes.paper}>
-                            <h3>brianmosser88</h3>
-                        </Typography>
-                        </Grid>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/ferrari.png' />
+                    <Typography className={classes.paper}>
+                        <h3>brianmosser88</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Burns</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>GPCollin</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Burns</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/red-bull-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>GPCollin</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Axton_118</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
-                        <Typography className={classes.paper}>
-                            <h3>T-money_all_day</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Axton_118</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/haas-f1-team.png' />
+                    <Typography className={classes.paper}>
+                        <h3>T-money_all_day</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
-                        <Typography className={classes.paper}>
-                            <h3>wolfsburg_tuner</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
-                        <Typography className={classes.paper}>
-                            <h3>LitRomney</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
+                    <Typography className={classes.paper}>
+                        <h3>wolfsburg_tuner</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/renault.png' />
+                    <Typography className={classes.paper}>
+                        <h3>LitRomney</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
-                        <Typography className={classes.paper}>
-                            <h3>JMurMario</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
-                        <Typography className={classes.paper}>
-                            <h3>AerosStrike</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
+                    <Typography className={classes.paper}>
+                        <h3>JMurMario</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mclaren.png' />
+                    <Typography className={classes.paper}>
+                        <h3>AerosStrike</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
-                        <Typography className={classes.paper}>
-                            <h3>UK_COXY-96</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
-                        <Typography className={classes.paper}>
-                            <h3>F1-Ginnittowinnit</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
+                    <Typography className={classes.paper}>
+                        <h3>UK_COXY-96</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/mercedes.png' />
+                    <Typography className={classes.paper}>
+                        <h3>F1-Ginnittowinnit</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
-                        <Typography className={classes.paper}>
-                            <h3>BrentCrystals</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
-                        <Typography className={classes.paper}>
-                            <h3>PaceDawgs17</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
+                    <Typography className={classes.paper}>
+                        <h3>BrentCrystals</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/racing-point.png' />
+                    <Typography className={classes.paper}>
+                        <h3>PaceDawgs17</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
-                        <Typography className={classes.paper}>
-                            <h3>Duv49ers</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
-                        <Typography className={classes.paper}>
-                            <h3>--</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
+                    <Typography className={classes.paper}>
+                        <h3>Duv49ers</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/toro-rosso.png' />
+                    <Typography className={classes.paper}>
+                        <h3>--</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>XRyanXDXD</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
-                        <Typography className={classes.paper}>
-                            <h3>kneeburr</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>XRyanXDXD</h3>
+                    </Typography>
                     </Grid>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/alfa-romeo-racing.png' />
+                    <Typography className={classes.paper}>
+                        <h3>kneeburr</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
 
-                    <Grid container className={classes.grids}>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
-                        <Typography className={classes.paper}>
-                            <h3>RobinhoodLawyer</h3>
-                        </Typography>
-                        </Grid>
-                        <Grid item xs={6} zeroMinWidth>
-                        <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
-                        <Typography className={classes.paper}>
-                            <h3>SirHarryHotspur</h3>
-                        </Typography>
-                        </Grid>
+                <Grid container className={classes.grids}>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
+                    <Typography className={classes.paper}>
+                        <h3>RobinhoodLawyer</h3>
+                    </Typography>
                     </Grid>
-                </Container>
+                    <Grid item xs={6} zeroMinWidth>
+                    <img width="65%" src='https://www.formula1.com/content/dam/fom-website/teams/2019/williams.png' />
+                    <Typography className={classes.paper}>
+                        <h3>SirHarryHotspur</h3>
+                    </Typography>
+                    </Grid>
+                </Grid>
             </InnerTabPanel>
         </TabPanel>
       )
