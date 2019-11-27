@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Typography, Paper } from '@material-ui/core';
+import { Typography, Container } from '@material-ui/core';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from "@material-ui/core/Tab";
 import Box from '@material-ui/core/Box';
@@ -14,6 +14,7 @@ const useStyles = makeStyles(theme => ({
         textAlign: 'center',
         color: theme.palette.text.secondary,
         margin: theme.spacing(0),
+        elevation: 24,
     },
     name: {
         textAlign: 'center',
@@ -75,7 +76,7 @@ const LineupPage = () => {
                 <Tab label="Tier 2 Lineup" {...a11yProps(1)}/>
             </Tabs>
             <InnerTabPanel value={value} index={0}>
-                <Paper className={classes.paper}>
+                <Container maxwidth="xl">
                     <Typography className={classes.paper}>
                         <h1>Tier 1 Lineup</h1>
                     </Typography>
@@ -228,10 +229,10 @@ const LineupPage = () => {
                         </Typography>
                         </Grid>
                     </Grid>
-                </Paper>
+                </Container>
             </InnerTabPanel>
             <InnerTabPanel value={value} index={1}>
-                <Paper className={classes.paper}>
+                <Container maxwidth="xl">
                     <Typography className={classes.paper}>
                         <h1>Tier 2 Lineup</h1>
                     </Typography>
@@ -384,7 +385,7 @@ const LineupPage = () => {
                         </Typography>
                         </Grid>
                     </Grid>
-                </Paper>
+                </Container>
             </InnerTabPanel>
         </TabPanel>
       )
